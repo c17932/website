@@ -1,7 +1,7 @@
-import $ from "../leaf/leaf.js";
-import router from "../leaf/modes/router/router.js";
+import $ from "../../../leaf.js";
+import router from "../router.js";
 import fs from "fs";
-import loadStaticAsset from "../leaf/modes/router/utils/loadStaticAsset/loadStaticAsset.js";
+import loadStaticAsset from "../utils/loadStaticAsset/loadStaticAsset.js";
 $.modes = {
   router: router,
 };
